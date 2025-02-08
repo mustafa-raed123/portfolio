@@ -4,15 +4,15 @@
 
 :root {
   --background: linear-gradient(135deg, #2b2a2a, #000033, #0000ff);
-  --foreground: #171717;
+  --foreground: #ededed;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: linear-gradient(135deg, #2b2a2a, #000033, #0000ff);
     --foreground: #ededed;
-  }
-}
+  } */
+/* } */
 
 body {
   color: var(--foreground);
