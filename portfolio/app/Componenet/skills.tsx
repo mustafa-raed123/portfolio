@@ -29,7 +29,7 @@ export default function Skills() {
       <h1 className="text-4xl font-bold text-center mb-10">Skills</h1>
       <div className="flex flex-col md:flex-row gap-6 justify-center">
         {/* Front End Skills */}
-        <div className=" rounded-lg shadow-2xl p-6 w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105">
+        <div className=" rounded-lg shadow-2xl skills p-6 w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105">
           <h3 className="text-2xl font-semibold text-center mb-4">Front End</h3>
           <div className="grid grid-cols-2 gap-4">
             {skillsData.frontEnd.map((skill, index) => (
@@ -50,7 +50,7 @@ export default function Skills() {
         </div>
 
         {/* Back End Skills */}
-        <div className=" rounded-lg shadow-2xl p-6 w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105">
+        <div className=" rounded-lg shadow-2xl skills p-6 w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105">
           <h3 className="text-2xl font-semibold text-center mb-4">Back End</h3>
           <div className="grid grid-cols-2 gap-4">
             {skillsData.backEnd.map((skill, index) => (
@@ -71,7 +71,7 @@ export default function Skills() {
         </div>
 
         {/* Other Skills */}
-        <div className=" rounded-lg shadow-2xl p-6 w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105">
+        <div className=" rounded-lg shadow-2xl skills p-6 w-full md:w-1/3 transform transition-transform duration-300 hover:scale-105">
           <h3 className="text-2xl font-semibold text-center mb-4">Others</h3>
           <div className="grid grid-cols-2 gap-4">
             {skillsData.others.map((skill, index) => (
